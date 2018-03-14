@@ -1,5 +1,7 @@
 # Docker ELK stack
 
+**Note** 专为国人优化，提供基于DaoCloud的Image，保证流畅的下载运行，ELK版本固定为6.2.2，提供x-Pack的支持。
+
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Elastic Stack version](https://img.shields.io/badge/ELK-6.2.2-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/248)
 [![Build Status](https://api.travis-ci.org/deviantony/docker-elk.svg?branch=master)](https://travis-ci.org/deviantony/docker-elk)
@@ -14,12 +16,6 @@ Based on the official Docker images:
 * [elasticsearch](https://github.com/elastic/elasticsearch-docker)
 * [logstash](https://github.com/elastic/logstash-docker)
 * [kibana](https://github.com/elastic/kibana-docker)
-
-**Note**: Other branches in this project are available:
-
-* ELK 6 with X-Pack support: https://github.com/deviantony/docker-elk/tree/x-pack
-* ELK 6 in Vagrant: https://github.com/deviantony/docker-elk/tree/vagrant
-* ELK 6 with Search Guard: https://github.com/deviantony/docker-elk/tree/searchguard
 
 ## Contents
 
